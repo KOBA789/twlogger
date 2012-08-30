@@ -21,7 +21,15 @@ $ cat my_keys.json
 $ $EDITOR my_keys.json
 ```
 
-Twitter にアプリ登録してない人は dev.twitter.com からどうぞ。
+Twitter にアプリ登録してない人は [Twitter Developers](http://dev.twitter.com/ "Twitter Developers") からどうぞ。
+
+- `key`: Consumer key
+- `secret`: Consumer secret
+- `token`: Access Token
+- `tokenSecret`: Access Token Secret
+- `couchdb`: CouchDB URL
+- `username`: CouchDB Account's
+- `password`: CouchDB Account's
 
 んで例によって `npm install`
 
